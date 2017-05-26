@@ -1,0 +1,9 @@
+/* Formatting Currently Fails */
+
+.group-tick line {
+  stroke: black;
+}
+
+.ribbons {
+  fill-opacity: 0.67;
+}
