@@ -8,7 +8,8 @@ import { Component, OnInit } from '@angular/core';
 export class DemoComponent implements OnInit {
 
   private chartData = {
-    matrix: null
+    matrix: null,
+    properties: null
   };
 
   constructor() {
@@ -18,6 +19,12 @@ export class DemoComponent implements OnInit {
       [8010, 16145, 8090, 8045],
       [1013, 990, 940, 6907]
     ];
+    this.chartData.properties = [
+      { name: 'Mercury', color: '#067d72' },
+      { name: 'Neptune', color: '#1365a6' },
+      { name: 'Uranus', color: '#e6125a' },
+      { name: 'Jupiter', color: 'yellow' }
+    ]
   }
 
   ngOnInit() {

@@ -7,12 +7,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { ChordDiagramComponent } from './chord-diagram/chord-diagram.component';
 import { DemoComponent } from './demo/demo.component';
+import { ChordDiagramV2Component } from './chord-diagram-v2/chord-diagram-v2.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ChordDiagramComponent,
-    DemoComponent
+    DemoComponent,
+    ChordDiagramV2Component
   ],
   imports: [
     BrowserModule,
