@@ -1,6 +1,11 @@
 import { Component, OnInit, OnChanges, ViewChild, ElementRef, Input, ViewEncapsulation } from '@angular/core';
 import * as d3 from 'd3';
 
+/**
+ * Chrod Diagram
+ *
+ * https://en.wikipedia.org/wiki/Chord_diagram
+ */
 @Component({
   encapsulation: ViewEncapsulation.None,
   selector: 'app-chord-diagram',
